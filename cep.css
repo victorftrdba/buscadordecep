@@ -1,0 +1,33 @@
+* {
+    font-family: sans-serif;
+    padding:5px;
+    border-radius:20px;
+}
+
+#CepInfo {
+    align-items: center;
+    justify-content:center;
+    display:flex;
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+input[type=text] {
+    border-color:transparent;
+    background:rgb(224, 224, 224);
+}
+
+input[type=submit] {
+    padding:10px;
+    margin: 10px;
+    border-color:transparent;
+    cursor:pointer;
+}
+
+input[type=submit]:hover {
+    background:grey;
+}
